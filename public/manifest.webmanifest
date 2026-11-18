@@ -1,0 +1,25 @@
+{
+  "name": "Esmeralda — Mesa Compartilhada",
+  "short_name": "Esmeralda",
+  "description": "Jogo de cartas original com mesa compartilhada e recombinação livre.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#06251b",
+  "theme_color": "#0a3527",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

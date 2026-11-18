@@ -1,0 +1,22 @@
+{
+  "name": "esmeralda-mesa",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Jogo de cartas original com baralho iberico, mesa compartilhada e recombinação livre.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test \"src/engine/*.test.mjs\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
